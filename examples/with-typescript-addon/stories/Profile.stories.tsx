@@ -1,8 +1,8 @@
-import { ComponentProps } from "react";
-import { Meta, StoryObj } from "@storybook/react";
-import { faker } from "@faker-js/faker/locale/en";
+import { ComponentProps } from 'react';
+import { Meta, StoryObj } from '@storybook/react';
+import { faker } from '@faker-js/faker/locale/en';
 
-import { Profile } from "../../_components/profile/Profile";
+import { Profile } from '../../_components/profile/Profile';
 
 type Story = StoryObj<ComponentProps<typeof Profile>>;
 

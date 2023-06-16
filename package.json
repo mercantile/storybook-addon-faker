@@ -28,7 +28,7 @@
     "@babel/core": "^7.17.8",
     "@changesets/cli": "^2.25.1",
     "babel-loader": "^8.2.3",
-    "chromatic": "^6.11.2",
+    "chromatic": "^6.19.7",
     "deepmerge": "^4.2.2",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^8.0.2",

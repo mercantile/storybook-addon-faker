@@ -1,13 +1,13 @@
-import { Meta, StoryObj } from "@storybook/react";
+import { Meta, StoryObj } from '@storybook/react';
 
-import { mockUser } from "./user";
-import { Header } from "../../_components/header/Header";
+import { mockUser } from './user';
+import { Header } from '../../_components/header/Header';
 
 const meta: Meta<typeof Header> = {
   component: Header,
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
-    layout: "fullscreen",
+    layout: 'fullscreen',
   },
 };
 

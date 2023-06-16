@@ -1,13 +1,13 @@
-import { seedStory } from "storybook-addon-faker";
-import { StoryObj } from "@storybook/react";
-import { faker } from "@faker-js/faker";
+import { seedStory } from 'storybook-addon-faker';
+import { StoryObj } from '@storybook/react';
+import { faker } from '@faker-js/faker';
 
-import { Button } from "../../_components/button/Button";
+import { Button } from '../../_components/button/Button';
 
 export default {
   component: Button,
   argTypes: {
-    backgroundColor: { control: "color" },
+    backgroundColor: { control: 'color' },
   },
 };
 
@@ -16,11 +16,7 @@ type ButtonProps = React.ComponentProps<typeof Button>;
 function mockButtonProps(input: Partial<ButtonProps>): ButtonProps {
   return {
     label: faker.word.verb(),
-    size: faker.helpers.arrayElement<ButtonProps["size"]>([
-      "small",
-      "medium",
-      "large",
-    ]),
+    size: faker.helpers.arrayElement<ButtonProps['size']>(['small', 'medium', 'large']),
     ...input,
   };
 }
